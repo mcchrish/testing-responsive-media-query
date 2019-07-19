@@ -1,0 +1,13 @@
+div.mcustom-change-height {
+  display: block;
+  background-color: yellow;
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width: 792px) {
+  div.mcustom-change-height {
+    height: 600px !important;
+    background-color: blue;
+  }
+}
